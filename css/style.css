@@ -1,0 +1,32 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(..//img/foto.png);
+  background-size: cover;
+  background-position: right, top;
+  background-color: #0008;
+  background-blend-mode: darken;
+  display: grid;
+  grid-template-rows: 100px 1fr 70px;
+}
+
+header {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.logo {
+  background-color: darkblue;
+}
+.menu {
+  background-color: chartreuse;
+}
+main {
+  background-color: brown;
+}
+footer {
+  background-color: burlywood;
+}
